@@ -27,11 +27,11 @@ O nodeJS se trata de uma plataforma na qual permite o uso de Javascript para apl
 # Alguns exemplos uso através do Insomnia (você pode tester em qualquer outra aplicação)
 - BaseUrl a ser utilizada: http://localhost:3001/api
 ### Listagem de todos os elementos da base de dados
-![img]()
+![img](https://github.com/AlekOliveira/apiREST/blob/master/images/listagem.png)
 ### Listagem de um item específico
-![img]()
-### Update de um item
-![img]()
+![img](https://github.com/AlekOliveira/apiREST/blob/master/images/itemespec.png)
+### Update de um item específico
+![img](https://github.com/AlekOliveira/apiREST/blob/master/images/update.png)
 ### Inclusão de um item
 ![img](https://github.com/AlekOliveira/apiREST/blob/master/images/create.png)
 
