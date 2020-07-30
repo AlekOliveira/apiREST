@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const mongoosePaginate = require('mongoose-paginate');
 
 const ProductSchema = new mongoose.Schema({
   title:{
@@ -20,5 +21,6 @@ const ProductSchema = new mongoose.Schema({
 });
 
 
-//Registrando uma model na base de dados
+//Registrando models na base de dados
+ProductSchema.plugin(mongoosePaginate);
 mongoose.model('Product', ProductSchema); 

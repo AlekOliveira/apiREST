@@ -7,13 +7,12 @@ const app = express();
 app.use(express.json());
 
 //init do banco de dados
-mongoose.connect(
-  'mongodb://localhost:27017/nodeapi',
-  { useNewUrlParser: true }
-);
+ mongoose.connect(
+   'mongodb://localhost:27017/nodeapi',
+   { useNewUrlParser: true }
+ );
+ 
 requireDir('./src/models');
-
-
 
 //Rotas
 app.use('/api', require('./src/routes'));
@@ -41,6 +40,12 @@ express
 
 os registros foram criados pelo inSominia
 
+
+comandos
+npm run dev
+docker ps -a
+docker start
+npm install mongoose-paginate
 
 */
 
