@@ -15,7 +15,7 @@ O nodeJS se trata de uma plataforma na qual permite o uso de Javascript para apl
 
 # Alguns passos a serem seguidos
 - Faça um clone do repositório e abra o terminal no diretório da pasta do projeto.
-- Instale as dependências com o comando 'npm install'.
+- Instale as dependências com o comando **npm install**.
 - Instale o [Docker](https://www.docker.com)
 - Agora com o docker instalado, no terminal digite **docker pull mongo**. Assim um container do mongoDB será instalado.
 - Para inicializar o mongo, você deve redirecionar as portas através do comando **docker run --name mongodb -p 27017:27017 -d mongo**
@@ -24,13 +24,16 @@ O nodeJS se trata de uma plataforma na qual permite o uso de Javascript para apl
 # Inicializando o servidor
 - No terminal, utilize o comando **npm run dev**
 
-# Exemplo de uso através do Insomnia
+# Alguns exemplos uso através do Insomnia (você pode tester em qualquer outra aplicação)
 - BaseUrl a ser utilizada: http://localhost:3001/api
 ### Listagem de todos os elementos da base de dados
+![img]()
 ### Listagem de um item específico
+![img]()
 ### Update de um item
-### Inclusão
-### Deleção
+![img]()
+### Inclusão de um item
+![img](https://github.com/AlekOliveira/apiREST/blob/master/images/create.png)
 
 
 
