@@ -1,10 +1,12 @@
 const express = require('express');
+const cors = require('cors');
 const mongoose = require('mongoose');
 const requireDir = require('require-dir');
 
 //init do app
 const app = express();
 app.use(express.json());
+app.use(cors());
 
 //init do banco de dados
  mongoose.connect(
@@ -21,11 +23,12 @@ app.listen(3001);
 
 
 
-
+//apiRest nodeJS, express, mongoDB
 
 //nodemon
 //docker - para containerização dos recursos do mongo db
 //robo3t - interface para o mongodb
+//cors
 
 
 /****dependencias utilizadas/
@@ -41,11 +44,12 @@ express
 os registros foram criados pelo inSominia
 
 
-comandos
+dependencias
 npm run dev
 docker ps -a
 docker start
 npm install mongoose-paginate
+npm install cors
 
 */
 
