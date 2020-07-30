@@ -6,12 +6,12 @@ O nodeJS se trata de uma plataforma na qual permite o uso de Javascript para apl
 
 # Algumas bibliotecas e ferramentas utilizadas no projeto
 
-### Mongoose
-### Express
-### Nodemon
-### Docker
-### MongoDB
-### Imsomnia
+- Mongoose
+- Express
+- Nodemon
+- Docker
+- MongoDB
+- Imsomnia
 
 
 
