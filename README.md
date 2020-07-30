@@ -11,6 +11,7 @@ O nodeJS se trata de uma plataforma na qual permite o uso de Javascript para apl
 - Docker 
 - MongoDB
 - Insomnia
+- Robo3T
 
 # Alguns passos a serem seguidos
 - Faça um clone do repositório e abra o terminal no diretório da pasta do projeto.
