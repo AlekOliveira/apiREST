@@ -10,15 +10,29 @@ O nodeJS se trata de uma plataforma na qual permite o uso de Javascript para apl
 - Nodemon
 - Docker 
 - MongoDB
-- Imsomnia
+- Insomnia
 
-# Como inicializar
+# Alguns passos a serem seguidos
 - Faça um clone do repositório e abra o terminal no diretório da pasta do projeto.
 - Instale as dependências com o comando 'npm install'.
 - Instale o [Docker](https://www.docker.com)
 - Agora com o docker instalado, no terminal digite **docker pull mongo**. Assim um container do mongoDB será instalado.
 - Para inicializar o mongo, você deve redirecionar as portas através do comando **docker run --name mongodb -p 27017:27017 -d mongo**
 - Use o comando **docker ps -a** para verificar se o mongo está rodando, caso não esteja basta digitar **docker start <nomeDaImagem>**
+  
+# Inicializando o servidor
+- No terminal, utilize o comando **npm run dev**
+
+# Exemplo de uso através do Insomnia
+- BaseUrl a ser utilizada: http://localhost:3001/api
+### Listagem de todos os elementos da base de dados
+### Listagem de um item específico
+### Update de um item
+### Inclusão
+### Deleção
+
+
+
 
 
 
