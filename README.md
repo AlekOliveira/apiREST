@@ -13,12 +13,12 @@ O nodeJS se trata de uma plataforma na qual permite o uso de Javascript para apl
 - Imsomnia
 
 # Como inicializar
-Faça um clone do repositório e abra o terminal no diretório da pasta do projeto.
-Instale as dependências com o comando 'npm install'.
-Instale o docker 
-Agora com o docker instalado, no terminal digite 'docker pull mongo'. Assim um container do mongoDB será instalado.
-Para inicializar o mongo, você deve redirecionar as portas através do comando 'docker run --name mongodb -p 27017:27017 -d mongo'
-Use o comando 'docker ps -a' para verificar se o mongo está rodando, caso não esteja basta digitar 'docker start <nomeDaImagem>'
+- Faça um clone do repositório e abra o terminal no diretório da pasta do projeto.
+- Instale as dependências com o comando 'npm install'.
+- Instale o docker 
+- Agora com o docker instalado, no terminal digite 'docker pull mongo'. Assim um container do mongoDB será instalado.
+- Para inicializar o mongo, você deve redirecionar as portas através do comando 'docker run --name mongodb -p 27017:27017 -d mongo'
+- Use o comando 'docker ps -a' para verificar se o mongo está rodando, caso não esteja basta digitar 'docker start <nomeDaImagem>'
 
 
 
