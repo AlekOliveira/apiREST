@@ -24,7 +24,7 @@ O nodeJS se trata de uma plataforma na qual permite o uso de Javascript para apl
 # Inicializando o servidor
 - No terminal, utilize o comando **npm run dev**
 
-# Alguns exemplos uso através do Insomnia (você pode tester em qualquer outra aplicação)
+# Alguns exemplos uso através do Insomnia (você pode testar em qualquer outra aplicação)
 - BaseUrl a ser utilizada: http://localhost:3001/api
 ### Listagem de todos os elementos da base de dados
 ![img](https://github.com/AlekOliveira/apiREST/blob/master/images/listagem.png)
