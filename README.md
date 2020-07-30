@@ -4,6 +4,15 @@ Uma api rest tem como objetivo fornecer uma maior flexibilidade ao front end par
 # Qual o motivo de usar Node neste projeto?
 O nodeJS se trata de uma plataforma na qual permite o uso de Javascript para aplicações backend para efetuar requisições ou obter respostas de um servidor, assim como o acesso à bancos de dados e etc.
 
+# Algumas bibliotecas e ferramentas utilizadas no projeto
+
+### Mongoose
+### Express
+### Nodemon
+### Docker
+### MongoDB
+### Imsomnia
+
 
 
 
