@@ -19,7 +19,7 @@ O nodeJS se trata de uma plataforma na qual permite o uso de Javascript para apl
 - Instale o [Docker](https://www.docker.com)
 - Agora com o docker instalado, no terminal digite **docker pull mongo**. Assim um container do mongoDB será instalado.
 - Para inicializar o mongo, você deve redirecionar as portas através do comando **docker run --name mongodb -p 27017:27017 -d mongo**
-- Use o comando **docker ps -a** para verificar se o mongo está rodando o container do mongo, caso não esteja basta digitar o comando
+- Use o comando **docker ps -a** para verificar se o container do mongo está rodando, caso não esteja basta digitar o comando
 **docker start nomeDoContainer**
   
 # Inicializando o servidor
