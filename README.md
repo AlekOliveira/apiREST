@@ -27,7 +27,7 @@ O nodeJS se trata de interpretador de JavaScript no qual permite o seu uso em ap
 
 # Alguns exemplos uso através do Insomnia (você pode testar em qualquer outra aplicação)
 - BaseUrl a ser utilizada: http://localhost:3001/api
-### Listagem de todos os elementos da base de dados
+### Listagem de todos os elementos da base de dados (com uso de paginação para melhor desempenho)
 ![img](https://github.com/AlekOliveira/apiREST/blob/master/images/listagem.png)
 ### Listagem de um item específico
 ![img](https://github.com/AlekOliveira/apiREST/blob/master/images/itemespec.png)
